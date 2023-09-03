@@ -133,7 +133,28 @@ nav {
     font-weight: 500;
     line-height: 25px;
 }
+.see-more-btn{
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    color: #e02c6d;
+    font-weight: 900;
+    margin: 30px 0;
+}
 
+/* ======feature-area===== */
+.feature-area{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.feature-info h2{
+    font-size: 35px;
+    color: #3a3a3a;
+}
+.feature-info p{
+    margin: 10px 0;
+}
 
 
 
@@ -156,7 +177,7 @@ nav {
         margin: 20px 0;
     }
     nav,
-    .menu ul {
+    .menu ul{
         flex-direction: column;
         text-align: center;
     }
@@ -183,6 +204,18 @@ nav {
     .card-area{
         grid-template-columns: 1fr;
         margin: 0px 10px;
+    }
+    .see-more-btn{
+        display: none;
+    }
+    .feature-area{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .feature-info h2{
+        font-size: 25px;
+        margin: 10px 0;
     }
     
 }
@@ -228,5 +261,17 @@ nav {
     .card-area{
         grid-template-columns: repeat(2,1fr);
         margin: 0px 10px;
+    }
+    .see-more-btn{
+        display: none;
+    }
+    .feature-area{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .feature-info h2{
+        font-size: 25px;
+        margin: 10px 0;
     }
 }
