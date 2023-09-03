@@ -4,3 +4,31 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+.container{
+    width: 80%;
+    margin: 30px auto;
+}
+.logo a{
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #3a3a3a;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0px 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: 500;
+    font-size: 17px;
+}
