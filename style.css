@@ -155,10 +155,32 @@ nav {
 .feature-info p{
     margin: 10px 0;
 }
-
-
-
-
+/* ===========footer======== */
+footer{
+    background: #0a0826;
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+}
+.info h2{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.info small{
+    font-size: 14px;
+    line-height: 25px;
+    color: #5c758f;
+}
+.icon i{
+    width: 30px;
+    height: 26px;
+    padding: 5px;
+    background-color: #22203b;
+    border-radius: 50%;
+    color: white;
+    margin: 10px 5px;
+    
+}
 
 
 
@@ -192,6 +214,9 @@ nav {
         padding: 0px 10px;
         text-align: center;
     }
+    .banner-img img{
+        width: 100%;
+    }
     .text-area h1 {
         font-size: 30px;  
     }
@@ -216,6 +241,9 @@ nav {
     .feature-info h2{
         font-size: 25px;
         margin: 10px 0;
+    }
+    .feature-info p{
+        margin: 0px 30px;
     }
     
 }
@@ -246,6 +274,9 @@ nav {
         padding: 0px 10px;
         text-align: center;
     }
+    .banner-img img{
+        width: 100%;
+    }
     .text-area h1 {
         font-size: 30px;
         margin: 10px 0;
@@ -273,5 +304,8 @@ nav {
     .feature-info h2{
         font-size: 25px;
         margin: 10px 0;
+    }
+    .feature-info p{
+        margin: 0px 70px;
     }
 }
