@@ -85,6 +85,64 @@ nav {
     box-shadow: 3px 3px 10px rgb(205, 204, 204);
 }
 
+/*=======popular-collection-area======= */
+.collection-area{
+    padding: 30px 0;
+}
+.collection-area h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0;
+    color: #3a3a3a;
+}
+.card-area{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.card{
+    box-shadow: 5px 10px 30px rgb(214, 214, 214);
+    padding: 15px;
+    border-radius: 5px;
+}
+.card img{
+   width: 100%; 
+}
+.card-info{
+    margin: 10px 0;
+}
+.card-info h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #3a3a3a;
+    margin: 10px 0;
+}
+.card-info h4{
+    font-size: 25px;
+    font-weight: 300;
+    color: #3a3a3a;
+    margin: 10px 0;
+}
+.card-info p > i{
+    color: #fb8200;
+    font-size: 12px;
+    margin-bottom: 10px ;
+}
+.card-info p{
+    color: #3a3a3a;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*====== mobile device responsive===== */
@@ -118,10 +176,15 @@ nav {
     }
     .sponspor{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
         gap: 20px;
-        text-align: center;
+        margin: 0px 10px;
     }
+    .card-area{
+        grid-template-columns: 1fr;
+        margin: 0px 10px;
+    }
+    
 }
 
 
@@ -161,5 +224,9 @@ nav {
         display: grid;
         grid-template-columns: repeat(4,1fr);
         gap: 20px;
+    }
+    .card-area{
+        grid-template-columns: repeat(2,1fr);
+        margin: 0px 10px;
     }
 }
