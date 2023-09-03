@@ -67,7 +67,7 @@ nav {
     color: white;
     border-radius: 30px;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
     margin: 10px 0;
     display: inline-block;
 
@@ -77,6 +77,13 @@ nav {
     margin-left: 4px;
 }
 
+/* =======sponspor-area==== */
+.sponspor{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    box-shadow: 3px 3px 10px rgb(205, 204, 204);
+}
 
 
 
@@ -107,8 +114,13 @@ nav {
         text-align: center;
     }
     .text-area h1 {
-        font-size: 30px;
-        
+        font-size: 30px;  
+    }
+    .sponspor{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        text-align: center;
     }
 }
 
@@ -144,5 +156,10 @@ nav {
     }
     .text-area p{
         margin: 0px 100px;
+    }
+    .sponspor{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
     }
 }
